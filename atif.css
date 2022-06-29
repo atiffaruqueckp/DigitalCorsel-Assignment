@@ -1,0 +1,132 @@
+/* body{background: red;} */
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Rubik Moonrocks', cursive; */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.nav1 {
+    width: 100%;
+    height: 50px;
+    color: white;
+    background: #222f3e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav1 a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    background: #e67e22;
+}
+
+.nav1 i {
+    margin: 0 5px;
+}
+
+.nav2 {
+    width: 100%;
+    height: 80px;
+    background: wgite;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 70px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: url("th.jpg");
+    /* linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) */
+    background-size: 100% 100%;
+}
+
+/* http://i1.wp.com/freebiejar.com/wp-content/uploads/2016/01/02.png?resize=700%2C500 */
+
+.header-text {
+    max-width: 600px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.header-text h1 {
+    font-size: 3em;
+    /* background-color: lightskyblue; */
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Rubik Moonrocks', cursive;
+    color: #e67e22;
+}
+
+.header-text span {
+    color: #e67e22;
+    /* background-color: lightskyblue; */
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Rubik Moonrocks', cursive;
+}
+
+.header-text p {
+    font-size: 20px;
+    margin: 40px 0;
+    color: wheat;
+}
+
+.header-text a {
+    text-decoration: none;
+    color: white;
+    background: #e67e22;
+    padding: 10px 20px;
+    margin: 0 15px;
+    letter-spacing: 5px;
+}
+
+main {
+    width: 100%;
+    height: 85vh;
+    background: url("marketting1.jpg");
+    /* linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) */
+    background-size: 100% 100%;
+    color: #e67e22;
+}
+
+footer {
+    width: 100%;
+    height: 85vh;
+    background-size: 100% 100%;
+    background: url("whity.jpg");
+    color: red;
+}
+
+.footer-text {
+    text-decoration: none;
+    color: red;
+    padding: 5px 10px;
+    margin: 0 15px;
+    letter-spacing: 5px;
+    align-items: right;
+}
+
+.footer-text2 {
+    color: blue;
+    margin: 5px 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
